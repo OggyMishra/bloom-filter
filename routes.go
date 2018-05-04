@@ -2,10 +2,10 @@ package main
 
 import (
 	"github.com/gorilla/mux"
-	"github.factset.com/bloom-filter/add"
-	"github.factset.com/bloom-filter/hash"
-	"github.factset.com/bloom-filter/member"
-	"github.factset.com/bloom-filter/size"
+	"github.com/bloom-filter/add"
+	"github.com/bloom-filter/hash"
+	"github.com/bloom-filter/member"
+	"github.com/bloom-filter/size"
 )
 
 func NewRouter() *mux.Router {
